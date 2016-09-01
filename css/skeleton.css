@@ -25,17 +25,72 @@
 - Media Queries
 */
 
+img {
+  display: block;
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
 svg {
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
+/* Larger than tablet */
+@media (min-width: 550px) {
+  svg {
+    width: 30%;
+    margin: auto;
+  }
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -3.5rem;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
 .splash-title {
-  background-color: #ff7021;
 }
 
 .splash-title__headline {
-  margin: 3rem 0;
+}
+
+.logo {
+  margin: 1.5rem auto 2rem;
+}
+
+header {
+  background-color: #ff7021;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 0 0 1.5rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  padding: 0.7rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.footer-content {
+  text-align: center;
+  color: #666;
+  font-size: 0.7rem;
+}
+
+.footer-content > a {
+  color: #666;
+  font-size: 0.7rem;
+  text-decoration: underline;
+}
+
+.subtitle {
+  color: #888;
 }
 
 /* Grid
@@ -130,6 +185,10 @@ svg {
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
+html, body {
+  height: 100%
+}
+
 html {
   font-size: 62.5%; }
 body {
@@ -137,14 +196,20 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #282828; }
 
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -170,9 +235,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #282828;
+  text-decoration: none;
+}
 a:hover {
-  color: #0FA0CE; }
+  color: #282828;
+  text-decoration: none;
+}
 
 
 /* Buttons
@@ -183,20 +252,19 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
+  height: 3rem;
+  padding: 0 0.5rem;
+  color: #282828;
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
+  font-size: 1.6rem;
+  line-height: 3rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid #282828;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -210,7 +278,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #333;
-  border-color: #888;
+  border-color: #282828;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -319,11 +387,17 @@ li {
   display: inline;
   list-style: none;
   text-align: center;
+  padding: 0;
+  margin: 1rem 0;
 }
 
 .menu-item {
   display: inline;
+  font-size: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
 }
+
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

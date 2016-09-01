@@ -91,7 +91,6 @@ footer {
 .footer-content > a {
   color: #666;
   font-size: 0.7rem;
-  text-decoration: underline;
 }
 
 .subtitle {
@@ -239,6 +238,15 @@ p {
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+p > a {
+  border-bottom: solid 1.5px #282828;
+}
+
+p > a:hover {
+  border-bottom-color: #FF7021;
+}
+
+
 a {
   color: #282828;
   text-decoration: none;
@@ -247,6 +255,7 @@ a:hover {
   color: #282828;
   text-decoration: none;
 }
+
 
 
 /* Buttons
@@ -290,6 +299,10 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
+  font-size: 3rem;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
   color: #FFF;
   background-color: #ff7021;
   border-color: #ff7021; }

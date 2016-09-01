@@ -27,6 +27,15 @@
 
 svg {
   width: 50%;
+  margin: auto;
+}
+
+.splash-title {
+  background-color: #ff7021;
+}
+
+.splash-title__headline {
+  margin: 3rem 0;
 }
 
 /* Grid

@@ -303,6 +303,11 @@ ol ul {
 li {
   margin-bottom: 1rem; }
 
+.menu {
+  display: inline;
+  list-style: none;
+}
+
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

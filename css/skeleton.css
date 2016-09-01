@@ -25,6 +25,9 @@
 - Media Queries
 */
 
+svg {
+  width: 50%;
+}
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -306,6 +309,7 @@ li {
 .menu {
   display: inline;
   list-style: none;
+  text-align: center;
 }
 
 .menu-item {

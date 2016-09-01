@@ -6,6 +6,8 @@ voteButtonText: Vote now!
 voteButtonLink: http://www.google.com
 ---
 
+![Alexi Polden](/img/alexi_polden.png)
+
 The Senate is the most powerful body in the University. It makes decisions about everything, from the way courses are delivered, to the state of the toilets. In theory the Senate should be there to make the University the best and most inclusive place it can be. Unfortunately, today’s Senate is presiding over something that looks more and more like a second-rate private college than a leading University.
 
 As your representative I will make sure the Senate doesn't forget that the University exists for students, not the other way around.

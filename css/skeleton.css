@@ -44,6 +44,10 @@ svg {
   }
 }
 
+.voteButtonRow {
+  text-align: center;
+}
+
 .page-wrap {
   min-height: 100%;
   margin-bottom: -3.5rem;
@@ -73,6 +77,7 @@ header {
 
 footer {
   padding: 0.7rem;
+  margin-top: 4rem;
   background-color: #efefef;
   text-align: center;
 }
@@ -286,8 +291,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #ff7021;
+  border-color: #ff7021; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -299,8 +304,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #ff9359;
+  border-color: #ff9359; }
 
 
 /* Forms
@@ -368,7 +373,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: disc inside; }
 ol {
   list-style: decimal inside; }
 ol, ul {

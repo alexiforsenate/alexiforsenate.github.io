@@ -2,6 +2,8 @@
 layout: page
 title: There for students
 subtitle: Competent, engaged leadership
+voteButtonText: Vote now!
+voteButtonLink: http://www.google.com
 ---
 
 Alexi Polden for Senate content.

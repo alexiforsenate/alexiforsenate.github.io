@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 中文
-subtitle: Chinese
+subtitle: Supporting international students
 voteButtonText: Vote now!
 voteButtonLink:
 ---

@@ -3,7 +3,7 @@ layout: page
 title: There for students
 subtitle: Competent, engaged leadership
 voteButtonText: Vote now!
-voteButtonLink: http://www.google.com
+voteButtonLink: http://bit.ly/alexi4senate
 ---
 
 ![Alexi Polden](/img/alexi_polden.png)

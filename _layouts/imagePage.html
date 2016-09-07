@@ -1,0 +1,30 @@
+{% include head.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="eight offset-by-two columns">
+      <h2 class="splash-title__headline">{{ page.title }}</h2>
+      <h5 class="subtitle">{{ page.subtitle }}</h5>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="eight offset-by-two columns">
+      {{ content }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="eight offset-by-two columns">
+      <img class="half-width-image" src="{{ page.bodyImage }}"></img>
+    </div>
+  </div>
+  <div class="row voteButtonRow">
+    <div class="eight offset-by-two columns">
+      <a href="{{ page.voteButtonLink }}" class="button button-primary">{{ page.voteButtonText }}</a>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

@@ -44,6 +44,13 @@ svg {
   }
 }
 
+.half-width-image {
+  width: 50%;
+  margin: auto;
+  margin-top: -1rem;
+  padding-bottom: 1rem;
+}
+
 .voteButtonRow {
   text-align: center;
 }

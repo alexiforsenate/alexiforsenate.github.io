@@ -44,6 +44,13 @@ svg {
   }
 }
 
+.centred-button {
+  text-align: center;
+  display: block;
+  width: 50;
+  margin: auto;
+}
+
 .half-width-image {
   width: 50%;
   margin: auto;
@@ -92,12 +99,13 @@ footer {
 .footer-content {
   text-align: center;
   color: #666;
-  font-size: 0.7rem;
+  font-size: 1.5rem;
 }
 
 .footer-content > a {
   color: #666;
-  font-size: 0.7rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 .subtitle {
@@ -359,7 +367,8 @@ textarea {
      -moz-appearance: none;
           appearance: none; }
 textarea {
-  min-height: 65px;
+  min-height: 85px;
+  width: 100%;
   padding-top: 6px;
   padding-bottom: 6px; }
 input[type="email"]:focus,
@@ -371,7 +380,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid #ff7021;
   outline: 0; }
 label,
 legend {
